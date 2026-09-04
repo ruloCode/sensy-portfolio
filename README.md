@@ -7,3 +7,7 @@ Sitio estático (HTML + CSS + JS sin dependencias) del portafolio de Sensy (Lina
 - `SENSY-portafolio-2025.pdf` — la versión en diapositivas.
 
 Los enlaces a Spotify / YouTube / Instagram se configuran en `LINKS` al inicio de `main.js`.
+
+## Regenerar el OG
+
+`~/.cache/hermes-pw-venv/bin/python build/render-og.py` toma `build/og.html` y escribe `assets/og.jpg` (1200×630).
